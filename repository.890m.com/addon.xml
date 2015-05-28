@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.890m.com" name="890.com" version="0.0.2" provider-name="douglaslauren">
+<addon id="repository.890m.com" name="Repositorio 890M.com" version="0.1.0" provider-name="douglaslauren">
 	<extension point="xbmc.addon.repository" name="890m.com Add-on Repository">
 		<info compressed="false">http://raw.github.com/Kodicine/repository.890m.com/master/addons.xml</info>
 		<checksum>http://raw.github.com/Kodicine/repository.890m.com/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/Kodicine/repository.890m.com/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>890.com Addon</summary>
-		<description>Addon Description</description>
+		<summary>Add-on Nessenciais brasileiros</summary>
+		<description>Varios add-ons brasileiros essenciais. Todos Funcionando!! Acesse www.kodicine.890m.com</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
