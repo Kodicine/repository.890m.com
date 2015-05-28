@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.armagedomfilmes" name="ArmagedomFilmes" version="0.2.6" provider-name="hgarcia/eseffair/aakashi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">visite o site http://www.armagedomfilmes.biz/ atraves do xbmc</summary>
+    <description lang="en">visite o site http://www.armagedomfilmes.biz/ atraves do xbmc</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.kodicine" name="KodiCine" version="0.0.3" provider-name="Douglaslauren">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
