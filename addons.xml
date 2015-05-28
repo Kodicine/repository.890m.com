@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.kodicine" name="KodiCine" version="0.0.3" provider-name="Douglaslauren">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Filmes 2015 HD Funcionando! Idioma Portugues</summary>
+    <description lang="en">Filmes online em HD dublados. LanÃ§amentos 2015. Filmes Dublados Idioma Portugues. Addon atualizado diariamente. Todos Filmes de 2015 e 2014 em qualidade 1080p e 720p!! VersÃ£o de teste.
+	Acesse nosso site tirar duvidas, reportar erros, ficar atualizado etc.. www.Kodicine.890m.com.</description>
+	<website>http://kodicine.890m.com/</website>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.890m.com" name="890.com" version="0.0.2" provider-name="douglaslauren">
 	<extension point="xbmc.addon.repository" name="890m.com Add-on Repository">
 		<info compressed="false">http://raw.github.com/Kodicine/repository.890m.com/master/addons.xml</info>
