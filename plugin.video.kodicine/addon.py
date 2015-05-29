@@ -253,7 +253,7 @@ xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 
 
-url = 'https://r2---sn-b8u-wvpe.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=4f2f2bc0f0979f0f&itag=37&source=webdrive&ip=177.132.178.129&ipbits=0&expire=1434847329&sparams=cmbypass,expire,id,ip,ipbits,itag,mm,mn,ms,mv,pcm2cms,pl,requiressl,shardbypass,source&signature=6DCC7E6DA1AFCC6639C7E9A2ED705DEAE5751F.6EF5A35D2CDCFB88F48BF5BDBEDEBABC08602F1A&key=cms1&begin=0&cms_redirect=yes&mm=31&mn=sn-b8u-wvpe&ms=au&mt=1432255271&mv=m&pcm2cms=yes&pl=21'
+url = 'https://r6---sn-b8u-wvpe.googlevideo.com/videoplayback?requiressl=yes&id=81370a7591446e15&itag=37&source=picasa&ip=177.41.253.137&ipbits=0&expire=1435525589&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pcm2cms,pl,requiressl,source&signature=6ED25D3547DDB7EE261795E6821272AF03EBC756.1A4F2C9CB9726D30A49EE42C0EA6E58083EA44DD&key=cms1&begin=0&cms_redirect=yes&mm=31&mn=sn-b8u-wvpe&ms=au&mt=1432933546&mv=m&pcm2cms=yes&pl=21'
 li = xbmcgui.ListItem('Dracula A Historia Nunca Contada 1080p', iconImage='http://www.filmesonlinehd1.com/wp-content/uploads/2014/11/dracula-a-historia-nunca-contada-filmesonlinehd1.fw_.fw_.png')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
@@ -261,6 +261,12 @@ xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'https://r6---sn-b8u-wvpe.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=340a88323952574f&itag=22&source=webdrive&ip=177.132.178.129&ipbits=0&expire=1434847499&sparams=cmbypass,expire,id,ip,ipbits,itag,mm,mn,ms,mv,pcm2cms,pl,requiressl,shardbypass,source&signature=0ED17BC13CF81C4425633A9ADF4E6A4B0C2EC0D3.47301D12FEAFB7FC61DCB361EE733E6BCE2F8987&key=cms1&begin=0&cms_redirect=yes&mm=31&mn=sn-b8u-wvpe&ms=au&mt=1432255440&mv=m&pcm2cms=yes&pl=21'
 li = xbmcgui.ListItem('O Protetor 720p', iconImage='http://www.filmesonlinehd1.com/wp-content/uploads/2014/12/o-protetor-filmesonlinehd1.fw_.fw_1.png')
+xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
+
+
+
+url = 'https://r3---sn-b8u-wvpe.googlevideo.com/videoplayback?requiressl=yes&id=10af25abcd70c2cd&itag=37&source=picasa&ip=177.41.253.137&ipbits=0&expire=1435525200&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pcm2cms,pl,requiressl,source&signature=0CE6CE00B252DDD14E3610ED3D6B6F7502CC7B1D.3EC380B75FAC1A5FC8A4FA112329706DF604B29E&key=cms1&begin=0&cms_redirect=yes&mm=31&mn=sn-b8u-wvpe&ms=au&mt=1432933124&mv=m&pcm2cms=yes&pl=21'
+li = xbmcgui.ListItem('Mapas Para as Estrelas 1080p', iconImage='http://www.filmesonline2.com/wp-content/uploads/2015/05/AvDuz23E36zy6IPVLNNpNrlWJsb.jpg')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 xbmcplugin.endOfDirectory(addon_handle)
