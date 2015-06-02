@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.topsertanejo" name="Top Sertanejo" version="0.0.2" provider-name="Douglaslauren">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Musicas Sertanejas</summary>
+    <description lang="en">Musicas Sertanejas as mais tocadas no Brasil. Acesse www.Kodicine.890m.com.</description>
+	<website>http://kodicine.890m.com/</website>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.armagedomfilmes" name="ArmagedomFilmes" version="0.2.6" provider-name="hgarcia/eseffair/aakashi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
