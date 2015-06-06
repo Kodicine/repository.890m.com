@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.890m.com" name="Repositorio 890M.com" version="0.1.4" provider-name="douglaslauren">
+<addon id="repository.890m.com" name="Repositorio 890M.com" version="0.1.5" provider-name="douglaslauren">
 	<extension point="xbmc.addon.repository" name="Repositorio 890m.com">
 		<info compressed="false">http://raw.github.com/Kodicine/repository.890m.com/master/addons.xml</info>
 		<checksum>http://raw.github.com/Kodicine/repository.890m.com/master/addons.xml.md5</checksum>
