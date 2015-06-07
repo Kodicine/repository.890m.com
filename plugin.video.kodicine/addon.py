@@ -6,6 +6,11 @@ addon_handle = int(sys.argv[1])
 
 xbmcplugin.setContent(addon_handle, 'movies')
 
+url = 'https://r3---sn-p5qlsu7d.googlevideo.com/videoplayback?id=10fd04f446adea34&itag=37&source=picasa&requiressl=yes&pl=21&gir=yes&clen=2232700759&dur=6861&lmt=1433505693220528&mime=video/mp4&ip=177.16.159.208&ipbits=0&expire=1433716923&sparams=clen,dur,expire,gir,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,requiressl,source&signature=07A588E99E50BD9E136A85317AE1EB61604DE694.2F640BB84360783424BB06D5F7A7FA751D347733&key=cms1&redirect_counter=1&req_id=3bd07d7078d9a3ee&cms_redirect=yes&mm=26&mn=sn-p5qlsu7d&ms=tsu&mt=1433688080&mv=m'
+li = xbmcgui.ListItem('Noite Sem Fim – 1080p', iconImage='http://www.filmesonline2.com/wp-content/uploads/2015/06/oRQgG6uK9W5aAdGO1dbGLcjSVRS.jpg')
+xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
+
+
 
 url = 'https://r2---sn-b8u-wvpe.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=7eaa862c67c6a5ef&itag=37&source=picasa&ip=200.146.45.83&ipbits=0&expire=1434664787&sparams=cmbypass,expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,shardbypass,source&signature=3AD4EEFA4EA0793918F1E55B423B7FABBE57DCF9.32BC52226B85309C98E27496B35D9E800DF31426&key=cms1&begin=0&cms_redirect=yes&mm=31&mn=sn-b8u-wvpe&ms=au&mt=1432072989&mv=m&pl=23'
 li = xbmcgui.ListItem('Destino a Jumpiter', iconImage='http://www.filmesonline2.com/wp-content/uploads/2015/04/Capa3-200x300.jpg')
